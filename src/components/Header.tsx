@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 const HEADER_LINKS = {
   About: "#about",
   Agenda: "#agenda",
-  Sponsors: "#sponsors",
+  Partners: "#partners",
   Contact: "#contact",
 };
 

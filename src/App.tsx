@@ -5,7 +5,7 @@ import { HeroSection } from "./components/Hero.Section";
 import { Bg } from "./components/Bg";
 import { AboutSection } from "./components/About.Section";
 import { AgendaSection } from "./components/Agenda.Section";
-import { SponsorsSection } from "./components/Sponsors.Section";
+import { PartnersSection } from "./components/Partners.Section";
 import { ContactSection } from "./components/Contact.Section";
 
 export const App: FC = () => {
@@ -17,7 +17,7 @@ export const App: FC = () => {
         <HeroSection />
         <AboutSection />
         <AgendaSection />
-        <SponsorsSection />
+        <PartnersSection />
         <hr />
         <ContactSection />
         <hr />

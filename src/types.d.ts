@@ -6,7 +6,7 @@ export interface AgendaItem {
   children: ReactNode;
 }
 
-export interface Sponsor {
+export interface Partner {
   name: string;
   image: string;
   link: string;

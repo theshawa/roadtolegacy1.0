@@ -1,6 +1,6 @@
-import { Sponsor } from "../types";
+import { Partner } from "../types";
 
-export const SPONSERS: Sponsor[] = [
+export const PARTNERS: Partner[] = [
   {
     description: "adsasd",
     image: "/about-banner.jpeg",

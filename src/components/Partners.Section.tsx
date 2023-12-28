@@ -1,8 +1,8 @@
 import { FC } from "react";
-import { Sponsor } from "../types";
-import { SPONSERS } from "../content/sponsers";
+import { PARTNERS } from "../content/partners";
+import { Partner } from "../types";
 
-const Item: FC<Sponsor> = ({ description, image, link, name }) => {
+const Item: FC<Partner> = ({ description, image, link, name }) => {
   return (
     <a
       className="flex flex-col items-center max-w-[263px] mx-auto md:mx-20 mb-20 md:mb-24 no-animation group"
@@ -26,11 +26,11 @@ const Item: FC<Sponsor> = ({ description, image, link, name }) => {
   );
 };
 
-export const SponsorsSection: FC = () => {
+export const PartnersSection: FC = () => {
   return (
-    <section id="sponsors" className="flex flex-col items-center text-center">
+    <section id="partners" className="flex flex-col items-center text-center">
       <h2 className="max-w-[492px] w-full">
-        Our <span className="text-primary">Sponsors</span>
+        Our <span className="text-primary">Partners</span>
         <br /> plays a major role
       </h2>
       <p className="max-w-[659px] mt-6">
@@ -40,8 +40,8 @@ export const SponsorsSection: FC = () => {
         penatibus lobortis. Tempor a pellentesque pellentesque bibendum.
       </p>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center mt-28">
-        {SPONSERS.map((sponsor, i) => (
-          <Item key={i} {...sponsor} />
+        {PARTNERS.map((partner, i) => (
+          <Item key={i} {...partner} />
         ))}
       </div>
     </section>

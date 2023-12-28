@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply text-[16px] font-normal bg-dark text-white font-barlow scroll-smooth;
+}
+
+h1,
+h2 {
+  @apply font-montserrat uppercase;
+}
+
+h1 {
+  @apply font-black text-[36px] md:text-[48px] leading-[normal];
+}
+
+h2 {
+  @apply font-bold text-[28px] md:text-[40px] leading-[normal];
+}
+
+h3 {
+  @apply font-medium uppercase text-[30px] md:text-[36px] leading-[normal];
+}
+
+p {
+  @apply text-white/90 text-[16px] md:text-[17px] leading-[24px];
+}
+
+.page-space-x {
+  @apply px-4 sm:px-8 max-w-screen-2xl mx-auto;
+}
+
+hr {
+  @apply max-w-[600px] mx-auto border-none h-px w-full;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 2.93%,
+    rgba(255, 255, 255, 0.17) 46.3%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+section:not(.no-space) {
+  @apply py-20 sm:py-32;
+}
+
+a:not(.no-animation) {
+  @apply underline decoration-primary/0 hover:decoration-primary hover:text-primary transition-colors duration-200;
+}
+
+.register-button::before {
+  content: "";
+  @apply absolute left-0 top-0 w-full h-full -z-10;
+  background: url("/bg.png");
+}

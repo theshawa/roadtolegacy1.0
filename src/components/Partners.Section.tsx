@@ -30,7 +30,7 @@ export const PartnersSection: FC = () => {
   return (
     <section id="partners" className="flex flex-col items-center text-center">
       <h2 className="max-w-[492px] w-full">
-        Our <span className="text-primary">Partners</span>
+        <span className="text-primary">Our Partners</span>
         <br /> plays a major role
       </h2>
       <p className="max-w-[659px] mt-6">

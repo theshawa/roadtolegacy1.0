@@ -11,6 +11,7 @@ const HEADER_LINKS = {
 const RegisterButton: FC = () => {
   return (
     <a
+      title="Registration ending soon"
       href=""
       className="bg-primary/95 text-dark text-center font-bold py-2.5 no-animation ring-[1px] ring-primary/20 transition-all shadow-xl hover:before:scale-150 overflow-hidden before:transition-transform before:duration-1000 duration-1000 hover:ring-primary/90 ring-offset-2 ring-offset-dark px-5 uppercase relative register-button"
     >

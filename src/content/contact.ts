@@ -27,5 +27,9 @@ export const CONTACT: {
       title: "IEE UCSC SB",
       link: "https://www.linkedin.com/company/ieee-student-branch-ucsc/",
     },
+    // {
+    //   title: "IEE UOM SB",
+    //   link: "/",
+    // },
   ],
 };

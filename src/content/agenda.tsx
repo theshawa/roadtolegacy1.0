@@ -30,44 +30,32 @@ export const AGENDA: AgendaItem[] = [
   },
   {
     title: "Network & Internet",
-    caption: "11:30 to 12:30",
-    children: <>45 min session from Dialog followed by 15 min Kahoot quiz</>,
+    caption:"11:30 to 12:30",
+    children: <>45 min session from Dialog followed by 15 min Kahoot quiz</>
   },
   {
-    title: "Lunch",
-    caption: "12:30 to 13:30",
-    children: (
-      <>
-        Presenting lunch at the 2 exits near the stage and main entrance (for
-        vegetarians)
-      </>
-    ),
+    title:"Lunch",
+    caption:"12:30 to 13:30",
+    children:<>Presenting lunch at the 2 exits near the stage and main entrance (for vegetarians)</>
   },
   {
     title: "Interactive session",
     caption: "13:30 to 14:00",
-    children: (
-      <>
-        Some bonding activity fitting in a 30min time gap to connect with
-        community
-      </>
-    ),
+    children:<>Some bonding activity fitting in a 30min time gap to connect with community</>
   },
   {
     title: "Data science & AI",
-    caption: "14:00 to 15:15",
-    children: (
-      <>1 hour session from rootcode AI followed by 15min Kahoot quiz</>
-    ),
+    caption:"14:00 to 15:15",
+    children: <>1 hour session from rootcode AI followed by 15min Kahoot quiz</>
   },
   {
     title: "Cyber security",
     caption: "15:15 to 16:15",
-    children: <>45 min session from ITx350 </>,
+    children: <>45 min session from ITx350 </>
   },
   {
     title: "Ending",
     caption: "16:15 to 16:30",
-    children: <>Dramatic exit with a memorable selfie (if possible)</>,
-  },
+    children: <>Dramatic exit with a memorable selfie (if possible)</>
+  }
 ];

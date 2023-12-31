@@ -28,7 +28,7 @@ export const PARTNERS: Partner[] = [
   {
     description: "Community outreach partner",
     image: "/genalpha.jpeg",
-    link: "https://www.linkedin.com/company/generation-alpha2025",
+    link: "https://lk.linkedin.com/company/generation-alpha2025",
     name: "Generation Alpha",
   },
 ];

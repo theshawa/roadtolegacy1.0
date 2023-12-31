@@ -20,11 +20,11 @@ export const CONTACT: {
   ],
   links: [
     {
-      title: "IEE USJ SB",
+      title: "IEEE USJ SB",
       link: "https://www.linkedin.com/company/ieee-student-branch-usj/",
     },
     {
-      title: "IEE UCSC SB",
+      title: "IEEE UCSC SB",
       link: "https://www.linkedin.com/company/ieee-student-branch-ucsc/",
     },
     // {

@@ -6,36 +6,26 @@ export const CONTACT: {
 } = {
   people: [
     {
-      email: "mrclocktd@gmail.com",
-      name: "Theshawa Dasun",
-      tel: "+94766743755",
-      title: "Heeees",
+      email: "pwgis106@gmail.com",
+      name: "Geethika Isuru",
+      tel: "+94 77 144 2131",
+      title: "Founder of ITLegacy",
     },
     {
-      email: "mrclocktd@gmail.com",
-      name: "Theshawa Dasun",
-      tel: "+94766743755",
-      title: "Heeees",
-    },
-    {
-      email: "mrclocktd@gmail.com",
-      name: "Theshawa Dasun",
-      tel: "+94766743755",
-      title: "Heeees",
+      email: "geethikasavith@gmail.com",
+      name: "Savith",
+      tel: "+94 76 849 7017",
+      title: "Program leads",
     },
   ],
   links: [
     {
       title: "IEE USJ SB",
-      link: "/",
+      link: "https://www.linkedin.com/company/ieee-student-branch-usj/",
     },
     {
       title: "IEE UCSC SB",
-      link: "/",
-    },
-    {
-      title: "IEE UOM SB",
-      link: "/",
+      link: "https://www.linkedin.com/company/ieee-student-branch-ucsc/",
     },
   ],
 };

@@ -8,7 +8,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-[16px] font-normal bg-dark text-white font-barlow scroll-smooth;
+  @apply text-[17px] font-normal bg-dark text-white font-barlow scroll-smooth;
 }
 
 h1,
@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-  @apply text-white/90 text-[16px] md:text-[17px] leading-[24px];
+  @apply text-white/90 text-[17px] md:text-[19px] leading-[26px];
 }
 
 .page-space-x {

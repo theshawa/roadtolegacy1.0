@@ -7,7 +7,7 @@ const Item: FC<AgendaItem> = ({ caption, children, title }) => {
     <li className="flex flex-col pl-[10vw] mb-24 md:mb-36 relative after:absolute after:content-[''] after:-left-1.5 md:after:-left-2 after:top-3  after:w-3 after:h-3 md:after:w-4 md:after:h-4 after:bg-primary after:rounded-full after:ring-8 after:ring-primary/20">
       <h3>{title}</h3>
       <span className="mt-3 text-white/60 mb-6">{caption}</span>
-      {children}
+      <p>{children}</p>
     </li>
   );
 };

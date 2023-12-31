@@ -13,7 +13,7 @@ const Item: FC<Partner> = ({ description, image, link, name }) => {
       <img
         src={image}
         alt={`Image of ${name}`}
-        className="w-[120px] md:w-[153px] aspect-square ring-8 ring-white/20 rounded-full object-center object-cover"
+        className="w-[120px] md:w-[153px] aspect-square ring-8 ring-white/20 rounded-full object-center object-contain bg-white p-4"
       />
       <h4 className="mt-5 text-[24px] md:text-[28px] uppercase font-medium">
         {name}
@@ -33,11 +33,13 @@ export const PartnersSection: FC = () => {
         <span className="text-primary">Our Partners</span>
         <br /> plays a major role
       </h2>
-      <p className="max-w-[659px] mt-6">
-        Lorem ipsum dolor sit amet consectetur. Non eu in accumsan vitae odio
-        consectetur enim. Pulvinar enim ornare fringilla praesent orci quisque.
-        Et nunc adipiscing viverra mattis. Mauris tincidunt porta aenean ornare
-        penatibus lobortis. Tempor a pellentesque pellentesque bibendum.
+      <p className="max-w-[759px] mt-6">
+        A heartfelt thank you to our partners who are integral to the success of
+        Road to Legacy 1.0. Their unwavering support is instrumental in
+        empowering the next generation of IT leaders. Through collaboration and
+        dedication, our partners contribute significantly to creating a platform
+        where knowledge and opportunity converge. Together, we are shaping a
+        legacy that propels aspiring IT professionals toward success.
       </p>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center mt-28">
         {PARTNERS.map((partner, i) => (

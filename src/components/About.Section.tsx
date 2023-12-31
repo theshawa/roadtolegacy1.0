@@ -5,7 +5,7 @@ export const AboutSection: FC = () => {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row max-w-screen-lg mx-auto"
+      className="flex flex-col lg:flex-row max-w-screen-xl mx-auto"
     >
       <div
         className="w-full flex-shrink-0 lg:w-1/2 md:max-w-[356px] aspect-video lg:aspect-[3/3.6] bg-white/5 shadow-2xl relative before:content-[''] before:absolute before:-z-10 before:bg-white/5 before:w-full before:h-full before:left-2.5 before:top-2.5"

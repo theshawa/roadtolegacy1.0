@@ -11,7 +11,10 @@ export const Footer: FC = () => {
           Theshawa Dasun
         </a>{" "}
         and{" "}
-        <a href="" title="Visit Rasuwan Kalhara">
+        <a
+          href="https://www.linkedin.com/in/rasuwan-kalhara-7aa525217/"
+          title="Visit Rasuwan Kalhara"
+        >
           Rasuwan Kalhara
         </a>{" "}
         with ❤️ for IT LEGACY.

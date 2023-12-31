@@ -19,7 +19,7 @@ const quoteStart = `<svg fill="#F36430" height="800px" width="800px" version="1.
 </svg>`;
 
 export const ABOUT = {
-  banner: "/about-banner.jpeg",
+  banner: "/about-banner.png",
   content: (
     <>
       <img

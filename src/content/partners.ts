@@ -20,7 +20,7 @@ export const PARTNERS: Partner[] = [
     name: "Young professionals & StudPro",
   },
   {
-    description: "Online platform partner",
+    description: "Registrations Partner",
     image: "/techevents.png",
     link: "https://techevents.lk/",
     name: "Techevents.lk",

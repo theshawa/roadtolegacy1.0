@@ -14,10 +14,10 @@ const Item: FC<AgendaItem> = ({ caption, children, title }) => {
 
 export const AgendaSection: FC = () => {
   return (
-    <section id="agenda" className="flex flex-col">
+    <section id="sessions" className="flex flex-col">
       <div className="flex items-center">
         <h2>
-          We have an <span className="text-primary">agenda</span>
+          Our Planned <span className="text-primary">Sessions</span>
         </h2>
         <div
           className="flex-1 h-px ml-16 hidden md:block"

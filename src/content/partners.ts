@@ -31,4 +31,10 @@ export const PARTNERS: Partner[] = [
     link: "https://lk.linkedin.com/company/generation-alpha2025",
     name: "Generation Alpha",
   },
+  {
+    description: "Partner",
+    image: "/slasscom.png",
+    link: "https://www.linkedin.com/company/slasscom",
+    name: "SLASSCOM",
+  },
 ];

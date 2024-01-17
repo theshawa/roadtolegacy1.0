@@ -7,6 +7,7 @@ import { AboutSection } from "./components/About.Section";
 import { AgendaSection } from "./components/Agenda.Section";
 import { PartnersSection } from "./components/Partners.Section";
 import { ContactSection } from "./components/Contact.Section";
+import { LocationSection } from "./components/Location.Section";
 
 export const App: FC = () => {
   return (
@@ -18,6 +19,8 @@ export const App: FC = () => {
         <AboutSection />
         <AgendaSection />
         <PartnersSection />
+        <hr />
+        <LocationSection />
         <hr />
         <ContactSection />
         <hr />

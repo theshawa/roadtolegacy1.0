@@ -20,13 +20,13 @@ const Person: FC<ContactPerson> = ({ email, name, tel, title }) => {
   );
 };
 
-const Link: FC<ContactLink> = ({ title, link }) => {
+export const Link: FC<ContactLink> = ({ title, link }) => {
   return (
     <a
       href={link}
       target="_blank"
       title={`Visit ${title}`}
-      className="flex items-center group bg-white/10 rounded-md backdrop-blur-sm space-x-2 font-medium px-[20px] py-[10px] mb-4 mx-2"
+      className="flex items-center group bg-white/10 rounded-md backdrop-blur-sm space-x-2 font-medium px-[20px] py-[10px] mb-4 mx-2 uppercase"
     >
       <span>{title}</span>
       <span className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">

@@ -55,6 +55,7 @@ export const HeroSection: FC = () => {
         Starts in
       </span>
       <Countdown />
+
       <hr className="mt-auto" />
     </section>
   );

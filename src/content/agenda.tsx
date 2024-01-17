@@ -11,11 +11,7 @@ export const AGENDA: AgendaItem[] = [
     caption: "",
     children: <>45min session from IFS followed by 15min Kahoot quiz</>,
   },
-  {
-    title: "Network & Internet",
-    caption: "",
-    children: <>45 min session from Dialog followed by 15 min Kahoot quiz</>,
-  },
+
   {
     title: "Data science & AI",
     caption: "",

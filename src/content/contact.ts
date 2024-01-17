@@ -12,10 +12,16 @@ export const CONTACT: {
       title: "Founder of ITLegacy",
     },
     {
-      email: "geethikasavith@gmail.com",
-      name: "Savith",
-      tel: "+94 76 849 7017",
-      title: "Program leads",
+      email: "armanasr257@gmail.com",
+      name: "Amrah Nasrul",
+      tel: "+94 77 804 2520",
+      title: "Co-Chief Organizer",
+    },
+    {
+      email: "bandarainod@gmail.com",
+      name: "Inod Bandara",
+      tel: "+94 76 963 1319",
+      title: "Co-Chief Organizer",
     },
   ],
   links: [

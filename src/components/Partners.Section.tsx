@@ -2,7 +2,7 @@ import { FC } from "react";
 import { PARTNERS } from "../content/partners";
 import { Partner } from "../types";
 
-const Item: FC<Partner> = ({ description, image, link, name }) => {
+const Item: FC<Partner> = ({ description, image, link, name, dark }) => {
   return (
     <a
       className="flex flex-col items-center max-w-[263px] mx-auto md:mx-20 mb-20 md:mb-24 no-animation group"
@@ -10,11 +10,15 @@ const Item: FC<Partner> = ({ description, image, link, name }) => {
       href={link}
       title={`Visit ${name}`}
     >
-      <img
-        src={image}
-        alt={`Image of ${name}`}
-        className="w-[120px] md:w-[153px] aspect-square ring-8 ring-white/20 rounded-full object-center object-contain bg-white p-4"
-      />
+      <div className="bg-white w-[120px] md:w-[153px] aspect-square ring-8 ring-white/20 rounded-full overflow-hidden p-4">
+        <img
+          src={image}
+          alt={`Image of ${name}`}
+          className={`object-center object-contain ${
+            dark ? "bg-dark p-4" : "bg-white"
+          } w-full h-full rounded-full`}
+        />
+      </div>
       <h4 className="mt-5 text-[24px] md:text-[28px] uppercase font-medium">
         {name}
       </h4>

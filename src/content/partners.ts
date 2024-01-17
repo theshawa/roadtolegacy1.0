@@ -37,4 +37,17 @@ export const PARTNERS: Partner[] = [
     link: "https://www.linkedin.com/company/slasscom",
     name: "SLASSCOM",
   },
+  {
+    description: "Partner",
+    image: "/wso2.webp",
+    link: "https://wso2.com/",
+    name: "WSO2",
+  },
+  {
+    description: "Partner",
+    image: "/fortude.webp",
+    link: "https://fortude.co/",
+    name: "Fortude",
+    dark: true,
+  },
 ];

@@ -11,6 +11,7 @@ export interface Partner {
   image: string;
   link: string;
   description: string;
+  dark?: boolean;
 }
 
 export interface ContactPerson {

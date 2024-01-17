@@ -5,6 +5,7 @@ const HEADER_LINKS = {
   About: "#about",
   Sessions: "#sessions",
   Partners: "#partners",
+  Location: "#location",
   Contact: "#contact",
 };
 

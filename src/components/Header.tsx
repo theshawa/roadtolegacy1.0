@@ -81,7 +81,7 @@ export const Header: FC = () => {
             {key}
           </a>
         ))}
-        <RegisterButton />
+        {/* <RegisterButton /> */}
       </div>
     </>
   );
